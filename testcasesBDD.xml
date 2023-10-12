@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>DIOP</projectKey>
+    <exportDate>2023-10-12 16:16:33 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="104487869" key="DIOP-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Henrique Weege</createdBy>
+            <createdOn>2023-10-12 16:11:15 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja aumentar quantidade de produtos.]]></name>
+            <owner>62879f00222d36006fb8dbbf</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de carrinho
+
+And deseja aumentar a quantidade de produtos
+
+When clicar no botão para aumentar quantidade
+
+Then será aumentada a quantidade de produto e esse aumento será refletido no preço final.]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="104487876" key="DIOP-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Henrique Weege</createdBy>
+            <createdOn>2023-10-12 16:11:39 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja diminuir quantidade de produtos.]]></name>
+            <owner>62879f00222d36006fb8dbbf</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de carrinho
+
+And deseja diminuir a quantidade de produtos
+
+When clicar no botão para diminuir quantidade
+
+Then será diminuida a quantidade do produto e esse diferença será refletida no preço final.]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

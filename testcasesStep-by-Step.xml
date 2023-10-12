@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>DIOP</projectKey>
+    <exportDate>2023-10-12 16:25:35 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="104488106" key="DIOP-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Henrique Weege</createdBy>
+            <createdOn>2023-10-12 16:20:54 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja visualizar total do carrinho.]]></name>
+            <owner>62879f00222d36006fb8dbbf</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Ao acessar p&aacute;gina do carrinho.]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve visualizar total dos itens presentes no carrinho.]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
